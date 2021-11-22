@@ -6,7 +6,7 @@
 #    By: ojamil <ojamil@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/20 09:56:28 by ojamil            #+#    #+#              #
-#    Updated: 2021/11/20 13:24:29 by ojamil           ###   ########.fr        #
+#    Updated: 2021/11/22 10:42:07 by ojamil           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,8 @@ SRC = ft_print_hexa.c\
 	ft_putnbr_unsigned.c\
 	ft_putnbr.c\
 	ft_putstr.c\
-	ft_printf.c
+	ft_printf.c\
+	ft_print_point.c
 
 OBJ = $(addprefix $(OBJ_DIR)/,$(SRC:.c=.o))	
 # $(addprefix src/,foo bar)

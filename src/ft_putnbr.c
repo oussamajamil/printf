@@ -6,19 +6,19 @@
 /*   By: ojamil <ojamil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 09:20:03 by ojamil            #+#    #+#             */
-/*   Updated: 2021/11/20 10:00:37 by ojamil           ###   ########.fr       */
+/*   Updated: 2021/11/22 10:55:13 by ojamil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 
-void ft_putnbr(int n, int *cp)
+void	ft_putnbr(int n, int *cp)
 {
 	if (n == -2147483648)
 	{
 		write(1, "-2147483648", 11);
 		*cp = *cp + 11;
-		return;
+		return ;
 	}
 	else if (n < 0)
 	{

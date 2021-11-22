@@ -6,13 +6,13 @@
 /*   By: ojamil <ojamil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 09:24:53 by ojamil            #+#    #+#             */
-/*   Updated: 2021/11/20 13:48:53 by ojamil           ###   ########.fr       */
+/*   Updated: 2021/11/22 10:48:05 by ojamil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 
-void ft_print_hexa(unsigned int n, const char *base, int *cp)
+void	ft_print_hexa(unsigned int n, const char *base, int *cp)
 {
 	if (n < 16)
 		ft_putchar(base[n], cp);

@@ -6,15 +6,14 @@
 /*   By: ojamil <ojamil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 09:19:08 by ojamil            #+#    #+#             */
-/*   Updated: 2021/11/20 13:17:08 by ojamil           ###   ########.fr       */
+/*   Updated: 2021/11/22 10:54:30 by ojamil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/ft_printf.h"
 
-void ft_putchar(int c, int *cp)
+void	ft_putchar(int c, int *cp)
 {
-
 	write(1, &c, 1);
 	*cp = *cp + 1;
 }
